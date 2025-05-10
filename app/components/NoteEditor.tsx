@@ -23,6 +23,9 @@ const NoteEditor = () => {
         StarterKit.configure({
           heading: {
             levels: [1, 2, 3],
+            HTMLAttributes: {
+                class: 'text-2xl font-bold my-4' // Add Tailwind classes
+              }
           },
         }),
         BulletList.configure({

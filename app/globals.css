@@ -59,3 +59,12 @@ body {
 .list-item {
   margin: 0.25rem 0;
 }
+.ProseMirror h1 {
+  @apply text-3xl font-bold my-4;
+}
+.ProseMirror h2 {
+  @apply text-2xl font-bold my-3;
+}
+.ProseMirror h3 {
+  @apply text-xl font-bold my-2;
+}
